@@ -1,0 +1,21 @@
+{
+    "name": "yarayzw/yzw-think-mongo-1.8.5",
+    "description": "mongodb driver for thinkphp5",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yarayzw",
+            "email": "314850412@qq.com"
+        }
+    ],
+    "require": {
+	"topthink/framework": "~5.1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\mongo\\": "src"
+        },
+        "files": [
+        ]
+    }
+}
